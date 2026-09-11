@@ -1,0 +1,44 @@
+name: sneakerhub_app
+description: Premium sneaker auction marketplace
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP
+  dio: ^5.4.0
+  
+  # Secure token storage
+  flutter_secure_storage: ^9.0.0
+  
+  # State management
+  provider: ^6.1.2
+  
+  # WebSocket realtime bidding
+  stomp_dart_client: ^3.0.1
+  
+  # Navigation
+  go_router: ^13.2.0
+  
+  # Image loading
+  cached_network_image: ^3.3.1
+  
+  # Date/time formatting
+  intl: ^0.19.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
